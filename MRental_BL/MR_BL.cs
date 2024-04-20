@@ -45,11 +45,6 @@ namespace MRental_BL
             }
         }
 
-        public void AddMovie(Movie newMovie)
-        {
-            List<Movie> movies = movieData.GetMovies();
-            movies.Add(newMovie);
-        }
         public List<Movie> GetMovies()
         {
             return movieData.GetMovies();
